@@ -6,7 +6,8 @@ Test name: which host test proves it.
 
 | Requirement ID | What it covers | Code location | Test name |
 | --- | --- | --- | --- |
-| SWS_Dio_91001 | DIO_E_PARAM_INVALID_CHANNEL_ID (0x0A) | TBD | TBD |
+| SWS_Dio_00074 | Invalid ChannelId in Dio_ReadChannel (Service ID 0x00) → report DIO_E_PARAM_INVALID_CHANNEL_ID (0x0A) | TBD | TBD |
+| SWS_Dio_00027 | Valid ChannelId in Dio_ReadChannel (Service ID 0x00) → return level read back from the pin (IDR) | TBD | TBD |
 | SWS_Dio_91001 | DIO_E_PARAM_INVALID_PORT_ID (0x14) | TBD | TBD |
 | SWS_Dio_91001 | DIO_E_PARAM_INVALID_GROUP (0x1F) | TBD | TBD |
 | SWS_Dio_91001 | DIO_E_PARAM_POINTER (0x20) | TBD | TBD |

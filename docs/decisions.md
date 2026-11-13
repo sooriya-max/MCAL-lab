@@ -1,0 +1,9 @@
+Dio_ReadChannel       0x00
+Dio_WriteChannel      0x01
+Dio_ReadPort          0x02
+Dio_WritePort         0x03
+Dio_ReadChannelGroup  0x04
+Dio_WriteChannelGroup 0x05
+Dio_GetVersionInfo    0x12
+Dio_FlipChannel       0x11
+Dio_MaskedWritePort   0x13
